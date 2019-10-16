@@ -1,4 +1,5 @@
 import { Payload } from "./Payload";
+
 export class Cargo implements Payload {
   // props and methods
   massKg: number;
