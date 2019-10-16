@@ -8,7 +8,6 @@
 import { Astronaut } from "./Astronaut";
 import { Cargo } from "./Cargo";
 import { Rocket } from "./Rocket";
-console.log("hello");
 
 let falcon9: Rocket = new Rocket("Falcon 9", 7500);
 

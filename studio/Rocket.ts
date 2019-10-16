@@ -6,8 +6,8 @@ export class Rocket {
   // props and methods
   name: string;
   totalCapacityKg: number;
-  cargoItems: any[];
-  astronauts: any[];
+  cargoItems: Cargo[] = [];
+  astronauts: Astronaut[] = [];
   constructor(name: string, totalCapacityKg: number) {
     this.name = name;
     this.totalCapacityKg = totalCapacityKg;
